@@ -1,0 +1,44 @@
+.app {
+  display: grid;
+  grid-template-rows: 15vh 67vh 18vh;
+}
+
+header,
+.middle,
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 8fr 1fr;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 8fr 1fr;
+  div {
+    display: grid;
+    place-items: center;
+  }
+  .brand {
+    place-items: center start;
+  }
+}
+.green {
+  background-color: #111916;
+}
+
+.home,
+.track,
+.pricing,
+.contact-us,
+.about {
+  grid-column: 3/-1;
+  height: 100%;
+  width: 100%;
+  z-index: 99999;
+  box-shadow: 10px 10px 10px black, 1px -3px 10px black;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 1rem auto 2rem auto;
+  text-align: center;
+}
