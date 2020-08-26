@@ -8,7 +8,7 @@
   build with React.js, React Router, SCSS(CSS), Webpack as bundler.
 </p>
 
-![demo](https://raw.githubusercontent.com/EdTosoy/Jinada-Project/Demo.png)
+![demo](https://github.com/EdTosoy/Jinada-Project/blob/master/Demo.png?raw=true)
 
 ## Built With
 
@@ -70,5 +70,5 @@
 
 ## Screen Shots
 
-![demo](https://raw.githubusercontent.com/EdTosoy/Jinada-Project/ScreenShot1.png)
-![demo](https://raw.githubusercontent.com/EdTosoy/Jinada-Project/ScreenShot2.png)
+![demo](https://github.com/EdTosoy/Jinada-Project/blob/master/ScreenShot1.png?raw=true)
+![demo](https://github.com/EdTosoy/Jinada-Project/blob/master/ScreenShot2.png?raw=true)
