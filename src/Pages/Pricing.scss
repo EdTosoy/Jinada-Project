@@ -1,0 +1,45 @@
+.pricing {
+  background-color: #111916;
+  form {
+    width: 50%;
+    margin: 0 auto;
+    div {
+      margin-top: 5px;
+    }
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.5rem;
+
+    font-size: 1rem;
+  }
+  label {
+    color: #cc2200;
+  }
+  input {
+    color: black;
+    padding: 5px;
+    width: 49%;
+    font-size: 1em;
+  }
+  .weight-control {
+    border: 1px solid #cc2200;
+    padding: 3px 1.2em;
+    cursor: pointer;
+    &:active {
+      border: 1px solid black;
+    }
+  }
+  button {
+    margin-top: 3em;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #cc2200;
+    text-align: center;
+    &:active {
+      background-color: black;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.track {
+  background-color: #111916;
+  .row {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    height: 2.5rem;
+    font-size: 1.3rem;
+  }
+  input {
+    flex-grow: 1;
+    color: black;
+    padding: 5px;
+    font-size: 1em;
+  }
+  button {
+    padding: 0 2em;
+    background-color: #cc2200;
+    &:active {
+      background-color: black;
+    }
+  }
+  ion-icon {
+    font-size: 1em;
+  }
+}

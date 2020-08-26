@@ -1,0 +1,28 @@
+.home {
+  background-image: url("./Jinada\ Hero\ Image.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.tagline {
+  padding: 2rem 1rem;
+  background-color: rgba(17, 24, 21, 0.9);
+  backdrop-filter: saturate(180%) blur(5px);
+  margin: 1.3rem;
+  font-size: 2rem;
+  display: inline-block;
+  h1 {
+    color: white;
+    line-height: 1.4;
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 0.6em;
+    &:hover {
+      color: #cc2200;
+    }
+  }
+}
