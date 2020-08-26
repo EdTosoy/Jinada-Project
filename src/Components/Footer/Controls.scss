@@ -1,0 +1,30 @@
+.controls {
+  box-shadow: -10px 10px 10px black;
+  .next,
+  .prev {
+    height: 50%;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+  }
+  ion-icon {
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+    }
+    &:active {
+      color: black;
+    }
+  }
+
+  .next {
+    background-color: black;
+  }
+  .prev {
+    background-color: #cc2200;
+  }
+}

@@ -1,0 +1,19 @@
+.social-contact {
+  background-color: #111916;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  ion-icon {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    &:hover {
+      color: #cc2200;
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+    }
+  }
+}

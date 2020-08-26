@@ -1,0 +1,14 @@
+.information {
+  grid-column: 4/-2;
+  background-color: #111916;
+  padding-top: 1rem;
+  padding-left: 5.5vw;
+
+  li {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 1rem;
+    }
+  }
+}

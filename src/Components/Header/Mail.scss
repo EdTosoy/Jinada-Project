@@ -1,0 +1,14 @@
+.mail {
+  background-color: #111916;
+  box-shadow: -10px 10px 10px black;
+}
+.mail img {
+  width: 2.5rem;
+  &:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+}
