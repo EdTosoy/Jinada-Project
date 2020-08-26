@@ -1,0 +1,68 @@
+@media (max-width: 900px) {
+  .brand {
+    font-size: 20px !important;
+  }
+  .navigation li,
+  .information p {
+    font-size: 10px !important;
+  }
+  .tagline {
+    font-size: 1rem !important;
+    padding: 1rem !important;
+  }
+  ion-icon {
+    font-size: 1rem !important;
+  }
+  header img {
+    width: 1.5rem !important;
+  }
+  .information {
+    ion-icon {
+      font-size: 10px !important;
+    }
+    p {
+      margin-left: 5px !important;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .app {
+    display: grid;
+  }
+  header,
+  .middle,
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .controls,
+  .brand,
+  .social-contact,
+  .logo,
+  .mail,
+  .green,
+  .white {
+    display: none !important;
+  }
+  .navigaiton,
+  .information,
+  .home,
+  .track,
+  .pricing,
+  .contact-us,
+  .about {
+    display: block !important;
+    max-height: 80vh !important;
+    grid-column: 1/-1 !important;
+    .row,
+    .about-wrapper {
+      font-size: 10px !important;
+    }
+  }
+  .heading {
+    font-size: 1rem;
+  }
+  .navigation {
+    padding: 1rem;
+  }
+}

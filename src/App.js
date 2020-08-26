@@ -7,15 +7,16 @@ import {
 } from "react-router-dom";
 
 import "./App.scss";
+import "./breakpoints.scss";
 import SocialContact from "./Components/SocialContact/SocialContact";
 import Header from "./Components/Header/Header";
+import Home from "./Pages/Home";
+import Track from "./Pages/Track";
 import Footer from "./Components/Footer/Footer";
+import Pricing from "./Pages/Pricing";
+import ContactUs from "./Pages/ContactUs";
+import About from "./Pages/About";
 import Loader from "./Components/Loader/Loader";
-import Track from "./Pages/Track/Track";
-import Home from "./Pages/Home/Home";
-import Pricing from "./Pages/Pricing/Pricing";
-import ContactUs from "./Pages/ContactUs/ContactUs";
-import About from "./Pages/About/About";
 
 function App() {
   return (

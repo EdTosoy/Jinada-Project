@@ -1,6 +1,6 @@
 import React from "react";
 
-import mailSVG from "./media/mail.svg";
+import mailSVG from "./mail.svg";
 import "./Mail.scss";
 export default function Mail() {
   return (
