@@ -5,10 +5,10 @@
 <p align="center">
   A Total Logistics Website for Total Logistics Company,
   This Project helps the users to track, Contact, and see Shipping Rates in JINADA's services. It is
-  build with React.js, React Router, SCSS(CSS), Webpack as bundler.
+  built with React.js, React Router, SCSS(CSS), Firebase, Webpack as bundler.
 </p>
 
-![demo](https://github.com/EdTosoy/Jinada-Project/blob/master/Demo.png?raw=true)
+![demo](https://raw.githubusercontent.com/EdTosoy/Jinada-Project/Demo.png)
 
 ## Built With
 
@@ -16,6 +16,7 @@
 - React Router Dom
 - SCSS(CSS)
 - Webpack
+- Firebase
 
 ## Installation & Setup
 
@@ -67,8 +68,9 @@
 - React Router Dom
 - Node-sass
 - Webpack
+- firebase
 
 ## Screen Shots
 
-![demo](https://github.com/EdTosoy/Jinada-Project/blob/master/ScreenShot1.png?raw=true)
-![demo](https://github.com/EdTosoy/Jinada-Project/blob/master/ScreenShot2.png?raw=true)
+![demo](https://raw.githubusercontent.com/EdTosoy/Jinada-Project/ScreenShot1.png)
+![demo](https://raw.githubusercontent.com/EdTosoy/Jinada-Project/ScreenShot2.png)
