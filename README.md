@@ -38,7 +38,7 @@
    yarn install
    ```
 
-3. Start the Parcel Development Server
+3. Start the Development Server
 
    ```sh
    npm start
